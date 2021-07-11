@@ -1,7 +1,7 @@
 package top.scanloginxmod.scanlogin
 
 object Constant {
-    const val TOP_JOWANXU_SCANLOGIN = "top.jowanxu.scanlogin"
+    const val TOP_SCANLOGINXMOD_SCANLOGIN = "top.scanloginxmod.scanlogin"
     const val COM_TENCENT_MM = "com.tencent.mm"
     const val COM_TENCENT_TIM = "com.tencent.tim"
     const val COM_TENCENT_QQ = "com.tencent.mobileqq"
@@ -53,8 +53,8 @@ object Constant {
     const val JINGDONG_LOGIN_TEXT = "确认登录电脑端"
 
     const val SHARED_NAME = "_preferences"
-    const val PREFERENCE_BOOLEAN = "content://top.jowanxu.scanlogin.provider/boolean"
-    const val AUTHORITY = "top.jowanxu.scanlogin.provider"
+    const val PREFERENCE_BOOLEAN = "content://top.scanloginxmod.scanlogin.provider/boolean"
+    const val AUTHORITY = "top.scanloginxmod.scanlogin.provider"
     const val BOOLEAN_PATH = "boolean"
     const val BOOLEAN_CODE = 0
     const val ICON_ENABLE = "iconVisibility"

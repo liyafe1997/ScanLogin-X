@@ -12,7 +12,7 @@ class Tutorial : IXposedHookLoadPackage {
     @Throws(Throwable::class)
     override fun handleLoadPackage(lpParam: XC_LoadPackage.LoadPackageParam) =
             when (lpParam.packageName) {
-                Constant.TOP_JOWANXU_SCANLOGIN ->
+                Constant.TOP_SCANLOGINXMOD_SCANLOGIN ->
                     HookScanLogin().checkModuleLoaded(lpParam)
                 Constant.COM_TENCENT_MM ->
                     HookWeChat().autoConfirmWeChatLogin(lpParam)

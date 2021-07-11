@@ -8,7 +8,7 @@ import top.scanloginxmod.scanlogin.tryHook
 
 class HookScanLogin {
     companion object {
-        private const val TOP_JOWANXU_SCANLOGIN_ACTIVITY = "top.jowanxu.scanlogin.MainActivity"
+        private const val TOP_SCANLOGINXMOD_SCANLOGIN_ACTIVITY = "top.scanloginxmod.scanlogin.MainActivity"
         private const val HOOK_SCANLOGIN_METHOD_NAME = "isModuleLoaded"
         private val TAG = HookScanLogin::class.java.simpleName
     }
@@ -18,7 +18,7 @@ class HookScanLogin {
      */
     fun checkModuleLoaded(lpParam: XC_LoadPackage.LoadPackageParam) {
         // 获取Class
-        val activityClass = XposedHelpers.findClassIfExists(TOP_JOWANXU_SCANLOGIN_ACTIVITY, lpParam.classLoader) ?: return
+        val activityClass = XposedHelpers.findClassIfExists(TOP_SCANLOGINXMOD_SCANLOGIN_ACTIVITY, lpParam.classLoader) ?: return
         tryHook(TAG, Constant.HOOK_ERROR) {
             // 将方法返回值返回为true
             XposedHelpers.findAndHookMethod(activityClass, HOOK_SCANLOGIN_METHOD_NAME, object : XC_MethodReplacement() {
