@@ -11,6 +11,7 @@ ScanLogin-X forked from [ScanLogin[(https://github.com/wangzailfm/ScanLogin)
 
 鉴于看起来原作已经几年没更新，看起来不维护了，所以我改了包名，避免跟原作冲突。
 
+## ScanLogin
 
 ### View the article
 [使用Xposed实现QQ/TIM自动确认电脑扫一扫登录](https://www.jowanxu.top/2017/10/12/%E4%BD%BF%E7%94%A8Xposed%E5%AE%9E%E7%8E%B0QQ-TIM%E8%87%AA%E5%8A%A8%E7%A1%AE%E8%AE%A4%E7%94%B5%E8%84%91%E6%89%AB%E4%B8%80%E6%89%AB%E7%99%BB%E5%BD%95/)
