@@ -3,7 +3,7 @@ Using Xposed to achieve Automatic confirmation login by scanning QRCode security
 Supported Automatic confirmation WeChat PC login.
 
 ## ScanLogin-X修改了啥
-ScanLogin-X forked from [ScanLogin[(https://github.com/wangzailfm/ScanLogin)
+ScanLogin-X forked from [ScanLogin](https://github.com/wangzailfm/ScanLogin)
 
 目前唯一的改动是使微信自动登录只有在黑屏（锁屏）的情况下才生效。这么做是因为我希望自动勾上“同步最近的消息”，然而我试了通过XposedHook似乎点不到那个勾，所以我只能让它在亮屏时不生效，然后亮屏时的自动登录（主要是扫码后的），由大圣净化之类的使用Android辅助功能模拟点击API来实现的工具来操作，这类工具都有自动勾上“同步最近的消息”的功能。第一次扫完码由这类工具勾上“同步最近的消息”后，以后在黑屏状态下就能由ScanLogin-X来自动登录并且默认已勾上“同步最近的消息”了。
 
