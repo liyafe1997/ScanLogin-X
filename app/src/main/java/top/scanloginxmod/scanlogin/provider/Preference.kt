@@ -1,8 +1,8 @@
-package top.jowanxu.scanlogin.provider
+package top.scanloginxmod.scanlogin.provider
 
 import android.annotation.SuppressLint
 import android.content.Context
-import top.jowanxu.scanlogin.Constant
+import top.scanloginxmod.scanlogin.Constant
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 

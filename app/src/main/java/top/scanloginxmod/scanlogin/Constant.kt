@@ -1,4 +1,4 @@
-package top.jowanxu.scanlogin
+package top.scanloginxmod.scanlogin
 
 object Constant {
     const val TOP_JOWANXU_SCANLOGIN = "top.jowanxu.scanlogin"

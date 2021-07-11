@@ -1,10 +1,10 @@
-package top.jowanxu.scanlogin.hook
+package top.scanloginxmod.scanlogin.hook
 
 import de.robv.android.xposed.XC_MethodReplacement
 import de.robv.android.xposed.XposedHelpers
 import de.robv.android.xposed.callbacks.XC_LoadPackage
-import top.jowanxu.scanlogin.Constant
-import top.jowanxu.scanlogin.tryHook
+import top.scanloginxmod.scanlogin.Constant
+import top.scanloginxmod.scanlogin.tryHook
 
 class HookScanLogin {
     companion object {

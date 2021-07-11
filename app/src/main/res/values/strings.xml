@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ScanLogin</string>
+    <string name="app_name">ScanLoginX</string>
     <string name="module_description">Automatic confirmation login by scanning QRCode security login to QQ/TIM, and WeChat</string>
     <string name="module_loaded_failed">Module loaded failed</string>
     <string name="module_loaded_success">Module loaded success</string>

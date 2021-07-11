@@ -1,4 +1,4 @@
-package top.jowanxu.scanlogin.hook
+package top.scanloginxmod.scanlogin.hook
 
 import android.app.Activity
 import android.os.Bundle
@@ -7,9 +7,9 @@ import android.widget.Button
 import de.robv.android.xposed.XC_MethodHook
 import de.robv.android.xposed.XposedHelpers
 import de.robv.android.xposed.callbacks.XC_LoadPackage
-import top.jowanxu.scanlogin.Constant
-import top.jowanxu.scanlogin.getPreferenceBoolean
-import top.jowanxu.scanlogin.tryHook
+import top.scanloginxmod.scanlogin.Constant
+import top.scanloginxmod.scanlogin.getPreferenceBoolean
+import top.scanloginxmod.scanlogin.tryHook
 
 class HookTIMQQ {
     companion object {

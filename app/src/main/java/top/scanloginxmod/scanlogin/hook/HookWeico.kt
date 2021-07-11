@@ -1,4 +1,4 @@
-package top.jowanxu.scanlogin.hook
+package top.scanloginxmod.scanlogin.hook
 
 import android.app.Activity
 import android.widget.TextView
@@ -6,13 +6,13 @@ import android.widget.Toast
 import de.robv.android.xposed.XC_MethodHook
 import de.robv.android.xposed.XposedHelpers
 import de.robv.android.xposed.callbacks.XC_LoadPackage
-import top.jowanxu.scanlogin.Constant
-import top.jowanxu.scanlogin.Constant.ANDROID_WIDGET_TEXTVIEW
-import top.jowanxu.scanlogin.Constant.WEICO_LOGIN_TEXT
-import top.jowanxu.scanlogin.Constant.WEICO_LOGIN_TEXT_CF
-import top.jowanxu.scanlogin.Constant.WEICO_LOGIN_TEXT_EN
-import top.jowanxu.scanlogin.getPreferenceBoolean
-import top.jowanxu.scanlogin.tryHook
+import top.scanloginxmod.scanlogin.Constant
+import top.scanloginxmod.scanlogin.Constant.ANDROID_WIDGET_TEXTVIEW
+import top.scanloginxmod.scanlogin.Constant.WEICO_LOGIN_TEXT
+import top.scanloginxmod.scanlogin.Constant.WEICO_LOGIN_TEXT_CF
+import top.scanloginxmod.scanlogin.Constant.WEICO_LOGIN_TEXT_EN
+import top.scanloginxmod.scanlogin.getPreferenceBoolean
+import top.scanloginxmod.scanlogin.tryHook
 
 class HookWeico {
     companion object {

@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 25
     defaultConfig {
-        applicationId "top.jowanxu.scanlogin"
+        applicationId "top.scanloginxmod.scanlogin"
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 38

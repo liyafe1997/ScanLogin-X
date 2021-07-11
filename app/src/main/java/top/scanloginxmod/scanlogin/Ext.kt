@@ -1,4 +1,4 @@
-package top.jowanxu.scanlogin
+package top.scanloginxmod.scanlogin
 
 import android.content.ComponentName
 import android.content.Context

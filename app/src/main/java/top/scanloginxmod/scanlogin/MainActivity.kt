@@ -1,11 +1,11 @@
-package top.jowanxu.scanlogin
+package top.scanloginxmod.scanlogin
 
 import android.app.Activity
 import android.content.ComponentName
 import android.os.Bundle
 import android.widget.CompoundButton.OnCheckedChangeListener
 import kotlinx.android.synthetic.main.activity_main.*
-import top.jowanxu.scanlogin.provider.Preference
+import top.scanloginxmod.scanlogin.provider.Preference
 
 class MainActivity : Activity() {
     private var iconEnable: Boolean by Preference(this, Constant.ICON_ENABLE, false)

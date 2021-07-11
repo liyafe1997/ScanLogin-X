@@ -1,4 +1,4 @@
-package top.jowanxu.scanlogin.provider
+package top.scanloginxmod.scanlogin.provider
 
 import android.content.ContentProvider
 import android.content.ContentValues
@@ -8,7 +8,7 @@ import android.database.Cursor
 import android.database.MatrixCursor
 import android.net.Uri
 import android.preference.PreferenceManager
-import top.jowanxu.scanlogin.Constant
+import top.scanloginxmod.scanlogin.Constant
 
 class SettingsProvider : ContentProvider() {
 

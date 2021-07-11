@@ -1,8 +1,8 @@
-package top.jowanxu.scanlogin
+package top.scanloginxmod.scanlogin
 
 import de.robv.android.xposed.IXposedHookLoadPackage
 import de.robv.android.xposed.callbacks.XC_LoadPackage
-import top.jowanxu.scanlogin.hook.*
+import top.scanloginxmod.scanlogin.hook.*
 
 /**
  * @author Jowan
